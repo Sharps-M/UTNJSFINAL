@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Evaluacion Final</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+</head>
+
+<body>
+  <h1>Evaluación Final Integradora</h1>
+
+  <div id="vHola">
+    <h2>Bienvenido</h2>
+    <script>
+      function saludo(name) {
+        return "Hola " + (name || "extraño") + "!" + "Abajo estan Listados todos los practicos correspondientes al curso de Programacion Con Javascript 😀";
+      }
+      function hola() {
+        var name = document.getElementById("input").value;
+        var output = saludo(name);
+        document.getElementById("output").innerHTML = output;
+      }
+    </script>
+    <p>
+      Ingresa Tu Nombre: <input id="input" pattern="[A-Za-z]">
+      <button onclick="hola()" type="button" class="btn btn-warning">Click Me!</button>
+    </p>
+    <h3 id="output"></h3>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div id="Unidad2">
+          <h2>Unidad II</h2>
+          <a href="evaluacion2.html">
+            <button type="button" class="btn btn-secondary btn-lg">Click para Ejercicio Unidad 2</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div id="Unidad3">
+          <h2>Unidad III</h2>
+          <a href="evaluacion3.html">
+            <button type="button" class="btn btn-secondary btn-lg">Click para Ejercicio Unidad 3</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div id="Unidad4">
+          <h2>Unidad IV</h2>
+          <a href="evaluacion4.html">
+            <button type="button" class="btn btn-secondary btn-lg">Click para Ejercicio Unidad 4</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div id="Unidad5">
+          <h2>Unidad V</h2>
+          <a href="evaluacion5.html">
+            <button type="button" class="btn btn-secondary btn-lg">Click para Ejercicio Unidad 5</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div id="Unidad6">
+          <h2>Unidad VI</h2>
+          <a href="evaluacion6.html">
+            <button type="button" class="btn btn-secondary btn-lg">Click para Ejercicio Unidad 6</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div id="Unidad7">
+          <h2>Unidad VII</h2>
+          <a href="evaluacion7.html">
+            <button type="button" class="btn btn-secondary btn-lg">Click para Ejercicio Unidad 7</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+
+      </div>
+      <div class="col-sm">
+        <div id="Unidad8">
+          <h2>Unidad VIII</h2>
+          <a href="evaluacion8.html">
+            <button type="button" class="btn btn-secondary btn-lg">Click para Ejercicio Unidad 8</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm">
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="card text-center">
+    <div class="card-header">
+      <h2> Evaluacion final Integradora </h2>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Click para ingresar a la evaluacion Final Integradora</h5>
+      <p class="card-text">✔ Consignas:</p>
+      <p>✔ Un formulario con validación personalizada (utilizando la API trabajada).</p>
+      <p>✔ Un juego (que utilice al menos 2 de los temas trabajados. Ej. funciones / DOM / eventos / condicionales).</p>
+      <p>✔ Una función asociada a un botón.</p>
+      <a href="form.html" class="btn btn-secondary">Acceder a la Evaluacion Final</a>
+    </div>
+    <div class="card-footer text-muted">
+      01/01/2020 ©Milton Maurenzi.
+    </div>
+  </div>
+</body>
+
+</html>
